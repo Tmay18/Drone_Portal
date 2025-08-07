@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Drone_Portal/static/css/main.bcd53c98.css",
-    "main.js": "/Drone_Portal/static/js/main.7cccf093.js",
+    "main.js": "/Drone_Portal/static/js/main.b68a7763.js",
     "index.html": "/Drone_Portal/index.html",
     "main.bcd53c98.css.map": "/Drone_Portal/static/css/main.bcd53c98.css.map",
-    "main.7cccf093.js.map": "/Drone_Portal/static/js/main.7cccf093.js.map"
+    "main.b68a7763.js.map": "/Drone_Portal/static/js/main.b68a7763.js.map"
   },
   "entrypoints": [
     "static/css/main.bcd53c98.css",
-    "static/js/main.7cccf093.js"
+    "static/js/main.b68a7763.js"
   ]
 }
