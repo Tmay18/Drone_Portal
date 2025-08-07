@@ -1,0 +1,105 @@
+/* src/styles/Status.css */
+
+.status-container {
+    padding: 40px;
+    background: #fff;
+    border-radius: 16px;
+    max-width: 1100px;
+    margin: 60px auto;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+.status-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2e2e2e;
+    margin-bottom: 40px;
+}
+
+.status-stepper {
+    position: relative;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.status-line {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    right: 40px;
+    height: 2px;
+    border-top: 2px dotted #ccc;
+    z-index: 1;
+}
+
+.status-steps {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.status-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    min-width: 100px;
+}
+
+.status-step-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    z-index: 2;
+    transition: background-color 0.3s ease;
+}
+
+.status-step.completed .status-step-circle {
+    background-color: #28a745;
+}
+
+.status-step.active .status-step-circle {
+    background-color: #007bff;
+}
+
+.status-step-label {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+    text-align: center;
+}
+
+.status-final-note {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+.status-download-btn {
+    background-color: #ccc;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: not-allowed;
+    transition: background-color 0.3s ease;
+}
+
+.status-download-btn.enabled {
+    background-color: #28a745;
+    cursor: pointer;
+}
+
+.status-download-btn.enabled:hover {
+    background-color: #218838;
+}

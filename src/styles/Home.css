@@ -1,0 +1,62 @@
+/* src/styles/Home.css */
+
+.home-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.split {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    background-color: #f0f8ff;
+}
+
+.left {
+    flex-direction: column;
+    padding: 40px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.drone-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.left h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.left p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    max-width: 90%;
+}
+
+.apply-btn {
+    padding: 14px 30px;
+    background-color: #009dff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+}
+
+.apply-btn:hover {
+    background-color: #a1b9c8;
+}
