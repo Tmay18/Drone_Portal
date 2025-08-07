@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Droneb_Portal/static/css/main.bcd53c98.css",
-    "main.js": "/Droneb_Portal/static/js/main.da403f48.js",
-    "index.html": "/Droneb_Portal/index.html",
-    "main.bcd53c98.css.map": "/Droneb_Portal/static/css/main.bcd53c98.css.map",
-    "main.da403f48.js.map": "/Droneb_Portal/static/js/main.da403f48.js.map"
+    "main.css": "/Drone_Portal/static/css/main.bcd53c98.css",
+    "main.js": "/Drone_Portal/static/js/main.7cccf093.js",
+    "index.html": "/Drone_Portal/index.html",
+    "main.bcd53c98.css.map": "/Drone_Portal/static/css/main.bcd53c98.css.map",
+    "main.7cccf093.js.map": "/Drone_Portal/static/js/main.7cccf093.js.map"
   },
   "entrypoints": [
     "static/css/main.bcd53c98.css",
-    "static/js/main.da403f48.js"
+    "static/js/main.7cccf093.js"
   ]
 }
