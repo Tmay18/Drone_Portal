@@ -17,7 +17,7 @@ const HomePage = () => {
             </div>
 
             <div className="split right">
-                <img src="/images/drone-img.jpg" alt="Drone" className="drone-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/drone-img.jpg`} alt="Drone" className="drone-image" />
             </div>
         </div>
     );

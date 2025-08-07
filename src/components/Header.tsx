@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header className="header-bar">
             <Link to="/" className="header-logo">
-                <img src="/images/QCI-Logo.webp" alt="QCI Logo" height="50" /></Link>
+                <img src={`${process.env.PUBLIC_URL}/images/QCI-Logo.webp`} alt="QCI Logo" height="50" /></Link>
             <nav className="header-nav">
                 <a href="/">Home</a>
                 <a href="#">About</a>
