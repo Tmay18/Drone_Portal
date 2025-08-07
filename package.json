@@ -2,7 +2,7 @@
   "name": "my-react-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Tmay18.github.io/Droneb_Portal",
+  "homepage": "https://Tmay18.github.io/Drone_Portal",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
