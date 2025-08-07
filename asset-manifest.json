@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tmay18/Drone_Portal.git/static/css/main.bcd53c98.css",
+    "main.js": "/Tmay18/Drone_Portal.git/static/js/main.35c1a8be.js",
+    "index.html": "/Tmay18/Drone_Portal.git/index.html",
+    "main.bcd53c98.css.map": "/Tmay18/Drone_Portal.git/static/css/main.bcd53c98.css.map",
+    "main.35c1a8be.js.map": "/Tmay18/Drone_Portal.git/static/js/main.35c1a8be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcd53c98.css",
+    "static/js/main.35c1a8be.js"
+  ]
+}

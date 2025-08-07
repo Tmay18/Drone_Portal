@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Production environment variables
+.env
+.env.*.local
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+*.swp
+
+# Test coverage
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Storybook
+out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Local React Native files (if used)
+.expo/
+
+# Mac trash
+.Trashes
+
+# Yarn Plug’n’Play
+.pnp.*
