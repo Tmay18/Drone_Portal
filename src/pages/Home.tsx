@@ -9,8 +9,8 @@ const HomePage = () => {
     return (
         <div className="home-container">
             <div className="split left">
-                <h1>Welcome to the Drone Certification Portal</h1>
-                <p>Apply for product testing, track application status, and access certification reports — all in one place.</p>
+                <h1>Welcome to the Drone Testing Portal</h1>
+                <p>Apply for product testing, track application status, and access reports - all in one place.</p>
                 <button className="apply-btn" onClick={() => navigate('/application')}>
                     Apply Now
                 </button>
